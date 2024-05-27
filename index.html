@@ -1,19 +1,74 @@
-<!DOCTYPE html>
+     <div class='login'>Login</div>
+      </div>
+    </div><!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='UTF-8'/>
     <title>Some Web Page</title>
     <link rel='stylesheet' href='styles.css'/>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class='menu-container'>
       <div class='menu'>
         <div class='date'>Aug 14, 2016</div>
-        <div class='links'>
-            <div class='signup'>Sign Up</div>
-            <div class='login'>Login</div>
+        <div class='signup'>Sign Up</div>
+   
+    <dialog id="favDialog">
+      <form method="dialog">
+        <p>
+          <label for="newBook">Add a book</label>
+          <select id="newBook" name="newBook">
+            <option></option>
+            <option>Brine shrimp</option>
+            <option>Red panda</option>
+            <input type="text" class="form-control" name="title" id="title" placeholder="Title" required>
+            <input type="text" class="form-control" name="author" id="author" placeholder="Author" required>
+            <input type="number" class="form-control" name="pages" id="pages" placeholder="Pages" required> 
+            <input type="checkbox" name="read" id="read" />
+          </select>
+        </p>
+        <div>
+          <button id="cancel" type="reset">Cancel</button>
+          <button type="submit">Confirm</button>
         </div>
+      </form>
+    </dialog>
+    
+    <div>
+      <button id="updateDetails">Update details</button>
+    </div>
+    <!-- <div class='header-container'>
+      <div class='header'>
+        <div class='subscribe'>Subscribe &#9662;</div>
+        <div class='logo'><img src='images/awesome-logo.svg'/></div>
+        <div class='social'><img src='images/social-icons.svg'/></div>
       </div>
     </div>
+    <div class='photo-grid-container'>
+      <div class='photo-grid'>
+        <div class='photo-grid-item first-item'>
+          <img src='images/one.svg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='images/two.svg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='images/three.svg'/>
+        </div>
+        <div class='photo-grid-item'>
+          <img src='images/four.svg'/>
+        </div>
+        <div class='photo-grid-item last-item'>
+          <img src='images/five.svg'/>
+        </div>        
+      </div>
+    </div>
+    <div class='footer'>
+      <div class='footer-item footer-one'></div>
+      <div class='footer-item footer-two'></div>
+      <div class='footer-item footer-three'></div>
+    </div>
+  -->
   </body>
 </html>
