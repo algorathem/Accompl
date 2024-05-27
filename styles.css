@@ -34,22 +34,22 @@
 }
 .footer-item {
   border: 1px solid #fff;
-  background-color: #D6E9FE;
+ background-color: #c3f6ed;
   height: 200px;
   flex: 1;
 }
 .footer-one,
 .footer-three {
-  background-color: #5995DA;
+  background-color: #01260c81;
   flex: initial;
   width: 300px;
 }
 
 dialog {
   margin: 10% auto;
-  width: 90%;
+  width: 80%;
   height:60%;
-  max-width: 350px;
+  max-width: 500px;
   background-color: blanchedalmond;
   padding: 50px;
   border: 0;
@@ -58,12 +58,17 @@ dialog {
 
 button{
   background-color: rgb(38, 0, 209);
-  width: 100px;
-  height:25px;
+  width: 150px;
+  height:50px;
   color:white;
   border-radius: 20px;
+  font-size: large;
 }
 
-#addNewBook {
+label{
+  font-size:large;
+}
 
+input{
+  font-size:medium;
 }
