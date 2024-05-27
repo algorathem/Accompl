@@ -11,7 +11,7 @@
       <form method="dialog" id="reviewForm">
         <p>
           <label for="start">Date:</label>
-          <input type="date" id="start" name="today-date" min="2024-01-01" max="2024-12-31" />
+          <input type="date" id="start" name="today-date" min="2024-01-01" max="2024-12-31" required>
           <br><label for="newBook">Pick A Genre: </label>
           <select id="newBook" name="newBook">
             <option>Fantasy</option>
@@ -21,12 +21,18 @@
             <option>Adventure</option>
             <option>Biography</option>
             <option>Non-Fiction</option>
-            <input type="text" class="form-control" name="title" id="title" placeholder="Title" required>
-            <input type="text" class="form-control" name="author" id="author" placeholder="Author" required>
-            <input type="number" class="form-control" name="pages" id="pages" placeholder="Pages" required>
-            <br><label for="myfile">Draw your favourite scene.</label>
-            <input type="file" id="myfile" name="myfile"> 
           </select>
+            <label for="Title">Title: </label>
+            <input type="text" name="Title" id="Title" placeholder="Book Title" required><br>
+            <label for="Author">Author: </label>
+            <input type="text" name="Author" id="Author" placeholder="Author" required><br>
+            <label for="Pages">Pages: </label>
+            <input type="Number" name="Pages" id="Pages" placeholder="Number of Pages" min="1" required><br>
+            <label for="reading">Have You Read it?</label>
+            <input type="checkbox" name="Reading" id="Reading">
+            <br><label for="myfile">Upload a drawing of your favourite scene!</label>
+            <input type="file" id="myfile" name="myfile"> 
+          
         </p>
         <div>
           <button id="cancel" type="reset">Cancel</button>
@@ -46,7 +52,7 @@
     <div>
       <button id="addNewBook">Add A Book</button>
     </div>
-    <div></div>
+    
     </div>
 
     <div class='footer'>

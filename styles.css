@@ -24,6 +24,8 @@
   .button-container {
     display: flex;
     justify-content: center;
+    height:800px;
+    background-image: url(images/bookshelf.jpg);
   }
 
 .footer {
@@ -49,7 +51,7 @@ dialog {
   height:60%;
   max-width: 350px;
   background-color: blanchedalmond;
-  padding: 34px;
+  padding: 50px;
   border: 0;
   border-radius: 5px;
 }
