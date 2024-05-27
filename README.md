@@ -11,9 +11,9 @@ Accompl is a fun and engaging webapp designed to help young readers between 7-12
 
 Why Accompl?
 
-    Become a Reading Champion: Keep track of your reading history with our easy-to-use date picker. Watch your reading stack grow as you explore new adventures!
-    Express Yourself: Sometimes words just don't capture how awesome a book is! With Accompl, you can draw your favorite scenes instead of writing long reviews.
-    Simple and Fun: No need to download anything! Just visit our website and start accomplishing your reading goals.
+- Become a Reading Champion: Keep track of your reading history with our easy-to-use date picker. Watch your reading stack grow as you explore new adventures!
+- Express Yourself: Sometimes words just don't capture how awesome a book is! With Accompl, you can draw your favorite scenes instead of writing long reviews.
+- Simple and Fun: No need to download anything! Just visit our website and start accomplishing your reading goals.
 
 Ready to Accompl Your Reading Adventure?
 
