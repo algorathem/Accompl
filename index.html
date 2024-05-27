@@ -10,15 +10,22 @@
     <dialog id="bookReviewDialog">
       <form method="dialog" id="reviewForm">
         <p>
-          <label for="newBook">Add a book</label>
+          <label for="start">Date:</label>
+          <input type="date" id="start" name="today-date" min="2024-01-01" max="2024-12-31" />
+          <br><label for="newBook">Pick A Genre: </label>
           <select id="newBook" name="newBook">
-            <option></option>
-            <option>Brine shrimp</option>
-            <option>Red panda</option>
+            <option>Fantasy</option>
+            <option>Mystery</option>
+            <option>Science Fiction</option>
+            <option>Historical Fiction</option>
+            <option>Adventure</option>
+            <option>Biography</option>
+            <option>Non-Fiction</option>
             <input type="text" class="form-control" name="title" id="title" placeholder="Title" required>
             <input type="text" class="form-control" name="author" id="author" placeholder="Author" required>
-            <input type="number" class="form-control" name="pages" id="pages" placeholder="Pages" required> 
-            <input type="checkbox" name="read" id="read" />
+            <input type="number" class="form-control" name="pages" id="pages" placeholder="Pages" required>
+            <br><label for="myfile">Draw your favourite scene.</label>
+            <input type="file" id="myfile" name="myfile"> 
           </select>
         </p>
         <div>
@@ -27,10 +34,7 @@
         </div>
       </form>
     </dialog>
-    
-    <div>
-      <button id="addNewBook">Add A Book</button>
-    </div>
+
     <div class='header-container'>
       <div class='header'>
         <div class='siteName'>Accompl</div>
@@ -38,6 +42,12 @@
       </div>
     </div>
     
+    <div class="button-container">
+    <div>
+      <button id="addNewBook">Add A Book</button>
+    </div>
+    <div></div>
+    </div>
 
     <div class='footer'>
       <div class='footer-item footer-one'></div>

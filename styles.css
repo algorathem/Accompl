@@ -21,7 +21,10 @@
     justify-content: space-around;
     align-items: center;
   }
-
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
 
 .footer {
   display: flex;
@@ -42,10 +45,23 @@
 
 dialog {
   margin: 10% auto;
-  width: 80%;
+  width: 90%;
+  height:60%;
   max-width: 350px;
-  background-color: hsl(244, 69%, 50%);
+  background-color: blanchedalmond;
   padding: 34px;
   border: 0;
   border-radius: 5px;
+}
+
+button{
+  background-color: rgb(38, 0, 209);
+  width: 100px;
+  height:25px;
+  color:white;
+  border-radius: 20px;
+}
+
+#addNewBook {
+
 }
