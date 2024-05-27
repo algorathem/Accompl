@@ -17,6 +17,6 @@ Why Accompl?
 
 Ready to Accompl Your Reading Adventure?
 
-Head over to our website on GitHub Pages (link to be provided later) and get started today! Accompl makes reading fun and helps you share your love of books with the world.
+Head over to our website on GitHub Pages (link: https://algorathem.github.io/Accompl/) and get started today! Accompl makes reading fun and helps you share your love of books with the world.
 
 Please note: This project is still under development, so some things might not be perfect yet. Stay tuned for exciting updates!
