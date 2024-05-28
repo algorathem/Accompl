@@ -4,8 +4,6 @@
 - Minimal typing interface
 - Draw out favourite scenes instead
 3. This webapp does not require installation. Simply access it via GitHub pages.
-Show drafts
-Getting Started with Accompl: Spark a Love of Reading!
 
 Accompl is a fun and engaging webapp designed to help young readers between 7-12 years old explore the wonderful world of books! Whether you're a bookworm already or just starting your reading journey, Accompl will help you track your progress and share your thoughts on the exciting stories you discover.
 
